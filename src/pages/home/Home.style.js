@@ -51,10 +51,9 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  width: 50%;
-  padding-left: 15px;
-  margin: 20px;
-  height: 45px;
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
   font-size: 18px;
   background: #171b22;
   border: 1px solid #31363d;
@@ -66,4 +65,15 @@ export const Button = styled.button`
     cursor: pointer;
     opacity: 0.8;
   }
+`;
+
+// for landing.js
+export const Landing = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 5px;
+  border: 1px solid #31363d;
 `;

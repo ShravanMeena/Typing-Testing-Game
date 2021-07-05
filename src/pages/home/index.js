@@ -6,7 +6,6 @@ import {
   Text,
   Input,
   Congratulations,
-  Button,
 } from "./Home.style";
 import Timer from "../../components/Timer/Timer";
 import Word from "../../components/Word/Word";
@@ -20,10 +19,6 @@ export default function Home() {
   const [activeWordIndex, setActiveWordIndex] = useState(0);
   const [startCounter, setStartCounter] = useState(false);
   const [correctWordArray, setCorrectWordArray] = useState([]);
-
-  function restart() {
-    // setResult(false);
-  }
 
   function handleChange(value) {
     setStartCounter(true);
@@ -54,15 +49,11 @@ export default function Home() {
     <Container>
       <Main>
         <Heading>Typing Speed Task</Heading>
-
         <Timer
           startCounter={startCounter}
           correctWords={correctWordArray.filter(Boolean).length}
         />
-
-        {result ? (
-          <Button onClick={restart}>Restart Typing</Button>
-        ) : (
+        {result ? null : (
           <Text>
             {data.current.map((word, index) => {
               return (
@@ -75,7 +66,6 @@ export default function Home() {
             })}
           </Text>
         )}
-
         {result ? (
           <Congratulations>Congrats Buddy</Congratulations>
         ) : (

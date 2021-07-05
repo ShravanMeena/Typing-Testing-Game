@@ -2,7 +2,6 @@
 
 ![showcase](https://github.com/ShravanMeena/Typing-Speed-Game/blob/main/src/assets/showcase.png?raw=true)
 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
