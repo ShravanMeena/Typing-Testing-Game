@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
+
+![showcase](https://github.com/ShravanMeena/Typing-Speed-Game/blob/main/src/assets/show2.png?raw=true)
 ![showcase](https://github.com/ShravanMeena/Typing-Speed-Game/blob/main/src/assets/showcase.png?raw=true)
+![showcase](https://github.com/ShravanMeena/Typing-Speed-Game/blob/main/src/assets/show3.png?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
